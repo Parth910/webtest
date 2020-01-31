@@ -4,18 +4,18 @@
 /* line 2, E:/167 Bizcon Business/Bizcon_html/sass/_extends.scss */
 .btn_1,
 .banner_part .banner_text .btn_1 {
-  background-image: -webkit-linear-gradient(131deg, #feb47b, #ff7e5f, #ff7e5f, #ff7e5f);
-  background-image: -o-linear-gradient(131deg, #feb47b, #ff7e5f, #ff7e5f, #ff7e5f);
-  background-image: linear-gradient(131deg, #feb47b, #ff7e5f, #ff7e5f, #ff7e5f);
+  background-image: -webkit-linear-gradient(131deg, #312f2e, #292422, #302e2e, #242222);
+  background-image: -o-linear-gradient(131deg, #363635, #140c0a, #140907, #080302);
+  background-image: linear-gradient(131deg, #272625, #161414, #1a1413, #0e0908);
 }
 
 /* line 8, E:/167 Bizcon Business/Bizcon_html/sass/_extends.scss */
 .btn_2,
 .btn_4,
 .slick-dots .slick-active button {
-  background-image: -webkit-linear-gradient(131deg, #feb47b, #ff7e5f, #ff7e5f, #ff7e5f);
-  background-image: -o-linear-gradient(131deg, #feb47b, #ff7e5f, #ff7e5f, #ff7e5f);
-  background-image: linear-gradient(131deg, #feb47b, #ff7e5f, #ff7e5f, #ff7e5f);
+  background-image: -webkit-linear-gradient(131deg, #312f2e, #292422, #302e2e, #242222);
+  background-image: -o-linear-gradient(131deg, #363635, #140c0a, #140907, #080302);
+  background-image: linear-gradient(131deg, #272625, #161414, #1a1413, #0e0908);
 }
 
 /**************** extend css start ****************/
@@ -2818,7 +2818,7 @@ ul {
 /**************** banner part css start ****************/
 /* line 2, E:/167 Bizcon Business/Bizcon_html/sass/_banner.scss */
 .banner_part {
-  height: 880px;
+  height: 1030px;
   position: relative;
   overflow: hidden;
   /* background-image: url(../img/banner_bg.png); */
@@ -2831,7 +2831,7 @@ ul {
 
   /* line 2, E:/167 Bizcon Business/Bizcon_html/sass/_banner.scss */
   .banner_part {
-    height: 650px;
+    height: 730px;
     background-image: none;
     background-color: #f0eed4;
   }
@@ -2851,7 +2851,7 @@ ul {
 
   /* line 2, E:/167 Bizcon Business/Bizcon_html/sass/_banner.scss */
   .banner_part {
-    height: 700px;
+    height: 1050px;
     background-image: none;
     background-color: #f0eed4;
   }
@@ -2862,7 +2862,7 @@ ul {
   /* line 2, E:/167 Bizcon Business/Bizcon_html/sass/_banner.scss */
   .banner_part {
     background-size: 45% 75%;
-    height: 650px;
+    height: 900px;
   }
 }
 
@@ -6564,13 +6564,13 @@ h6 {
 
 
 .p1 {
-  background-color: aqua;
+  background-color: #3D7EFF;
   position: relative;
 
 
   clip-path: polygon(0 0,
       100% 0,
-      100% calc(100% - 25%),
+      100% calc(100% - 15%),
       0 100%);
 }
 
