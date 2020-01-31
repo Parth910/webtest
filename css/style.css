@@ -2821,23 +2821,13 @@ ul {
   height: 1030px;
   position: relative;
   overflow: hidden;
-  background-image: url(../img/Asset\ 1.svg);
+  /* background-image: url(../img/Asset\ 1.svg); */
   background-repeat: no-repeat;
   background-size: 41%;
   background-position: center right;
-  -webkit-animation: myfirst 5s ; /* Chrome, Safari, Opera */
-    animation: myfirst 5s ;
-}
-@-webkit-keyframes myfirst {
-  from {opacity: 0.2;}
-  to {opacity: 1;}
+ 
 }
 
-/* Standard syntax */
-@keyframes myfirst {
-  from {opacity: 0.2;}
-  to {opacity: 1;}
-}
 
 @media (max-width: 576px) {
 
@@ -6612,4 +6602,24 @@ sp{
 }
 .mob_V{
   display: none !important;
+}
+
+.img_f{
+  /* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+}
+@keyframes float {
+	0% {
+		/* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+		transform: translatey(0px);
+	}
+	50% {
+		/* box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2); */
+		transform: translatey(-20px);
+	}
+	100% {
+		/* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+		transform: translatey(0px);
+	}
 }
