@@ -2821,10 +2821,22 @@ ul {
   height: 1030px;
   position: relative;
   overflow: hidden;
-  /* background-image: url(../img/banner_bg.png); */
+  background-image: url(../img/Asset\ 1.svg);
   background-repeat: no-repeat;
   background-size: 41%;
-  background-position: top right;
+  background-position: center right;
+  -webkit-animation: myfirst 5s ; /* Chrome, Safari, Opera */
+    animation: myfirst 5s ;
+}
+@-webkit-keyframes myfirst {
+  from {opacity: 0.2;}
+  to {opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+  from {opacity: 0.2;}
+  to {opacity: 1;}
 }
 
 @media (max-width: 576px) {
@@ -6564,7 +6576,7 @@ h6 {
 
 
 .p1 {
-  background-color: #3D7EFF;
+  background-color:  #31C4F3 ;
   position: relative;
 
 
