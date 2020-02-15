@@ -43,12 +43,52 @@
   });
 
   // menu fixed js code
+  // console.log($('.main_menu .main-menu-item ul li a'));
+var y =$(window).innerHeight();
+  $('.banner_part').height( $(window).innerHeight());
+  $('.bt_1').height( y);
+  
   $(window).scroll(function () {
     var window_top = $(window).scrollTop() + 1;
-    if (window_top > 50) {
+    if (window_top > 5500) {
+      
+      $('.navbar-nav').addClass('tet5 animated fadeInDown');
+    }
+    if (window_top > 4800) {
+      
+      $('.navbar-nav').addClass('tet4 animated fadeInDown');
+    }
+
+    if (window_top > 3800) {
+      
+      $('.navbar-nav').addClass('tet3 animated fadeInDown');
+    }
+    if (window_top > 2800) {
+      
+      $('.navbar-nav').addClass('tet2 animated fadeInDown');
+    }
+    if (window_top > 1800) {
+      
+      $('.navbar-nav').addClass('tet1 animated fadeInDown');
+    }
+    if (window_top > 940) {
+      
+      $('.navbar-nav').addClass('tet animated fadeInDown');
+      // $('.main_menu .main-menu-item ul li a').css("color", "#31C3F2 !important");
+
+    }
+     if (window_top > 50) {
       $('.main_menu').addClass('menu_fixed animated fadeInDown');
-    } else {
+    }
+     else {
       $('.main_menu').removeClass('menu_fixed animated fadeInDown');
+      $('.navbar-nav').removeClass('tet animated fadeInDown');
+      $('.navbar-nav').removeClass('tet1 animated fadeInDown');
+      $('.navbar-nav').removeClass('tet2 animated fadeInDown');
+      $('.navbar-nav').removeClass('tet3 animated fadeInDown');
+      $('.navbar-nav').removeClass('tet4 animated fadeInDown');
+      $('.navbar-nav').removeClass('tet5 animated fadeInDown');
+
     }
   });
 
